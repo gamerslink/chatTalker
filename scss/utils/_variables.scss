@@ -1,0 +1,40 @@
+ /* https://github.com/liyongning/element-ui/tree/1420f7dac7f62585f96452e3280eb39b68e3ae2c/packages/theme-chalk */
+
+$colors: (
+    primary: #221E1F,
+    secondary: #56C4C5,
+    shadow: #00000014,
+    mute: #747474,
+    white: #F5F5F5,
+    light: #FF5D50,
+);
+
+body {
+    color: map-get($colors, primary)
+}
+
+h1 {
+    color: map-get($colors, secondary);
+}
+
+.btn-org {
+    border: 1px map-get($colors, light);
+    background-color:  map-get($colors, light);
+}
+
+.btn-blue {
+    border: 1px map-get($colors, secondary);
+    background-color: map-get($colors, secondary);
+}
+
+.top {  background-color: map-get($colors, secondary);
+}
+
+
+.card-m span {
+    color: map-get($colors, secondary);
+}
+
+.platform p {
+    color: map-get($colors, mute);
+}

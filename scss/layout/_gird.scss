@@ -1,0 +1,105 @@
+
+@media screen and (min-width: 768px) {
+  .bg_home {
+  background-image: url(../images/bg_home.svg);
+  background-position: right top;
+  background-size: 851px;  
+  background-repeat: no-repeat;
+  }
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  
+
+  h1 {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem ;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    padding-left: 1.5rem;
+  }
+
+  main > div > img {
+    width: 70vw;
+    margin-bottom: 6rem;
+  }
+
+  content > ul {
+    flex-direction: column;
+  }
+  
+
+  .header {
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #ffd153;
+  }
+
+    section {
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .platform {
+      width: 100vw;
+      margin-bottom: 1.5rem;
+      padding: 0rem 4.6rem;
+    }
+  
+
+    .card-l {
+      width: 60vw;
+      padding: 2.5rem 3rem;
+      margin-bottom: 3rem;
+      margin-left: 8rem;
+    }
+
+    .card-m {
+      width: 45vw;
+      margin-bottom: 1.5rem;
+      img {
+        margin-bottom: 1rem;
+      }
+      p {
+        padding: 0rem 1rem;
+      }
+    }
+
+    .card-s {
+      width: 45vw;
+      padding: 3rem;
+    }
+
+
+    .bg-home-sm {
+      position: relative;
+      background-repeat: no-repeat;
+      background-image: url(../images/bg_home_sm.svg);
+      background-position: 50% 400px;
+      background-size: 334px;
+  }
+}
+
+
+    
+
+

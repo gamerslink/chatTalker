@@ -1,0 +1,18 @@
+@mixin rounded-shadow {
+    box-shadow: 0px 2px 10px map-get($colors , shadow);
+}
+
+@mixin rounded-border{
+    height: auto;
+    border-radius: 12px;
+}
+
+
+.card-l, .card-m, .card-s, .icon{
+    @include rounded-shadow;
+    @include rounded-border;
+}
+
+.line {
+    @include rounded-border;
+}

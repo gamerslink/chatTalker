@@ -1,0 +1,30 @@
+.platform {
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-l {
+    width: 352px;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.card-m{
+    width: 260px;
+    
+    img {
+        border-radius: 10px 10px 0px 0px ;
+    }
+    span {
+        display: block;
+        font-weight: bold;
+    }
+}
+
+.card-s {   
+    width: 230px;
+    padding: 3rem 2rem;
+    margin: 1.5rem;
+}
+
