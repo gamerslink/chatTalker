@@ -1,26 +1,31 @@
-
 @media screen and (min-width: 768px) {
   .bg_home {
-  background-image: url(../images/bg_home.svg);
-  background-position: right top;
-  background-size: 851px;  
-  background-repeat: no-repeat;
+    background-image: url(../images/bg_home.svg);
+    background-position: right top;
+    background-size: 851px;
+    background-repeat: no-repeat;
+  }
+  .rightSection {
+    width: 40vw;
   }
 }
 
-
-
-
 @media screen and (min-width: 0px) and (max-width: 767px) {
-  
+  .bg-home-sm {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg_home_sm.svg);
+    background-position: 50% 500px;
+    background-size: 80vw;
+  }
 
   h1 {
     margin-bottom: 2rem;
-    padding-left: 1.5rem ;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 2rem;
     font-weight: bold;
     padding-left: 1.5rem;
   }
@@ -35,71 +40,80 @@
 
   h5 {
     padding-left: 1.5rem;
+    font-size: 1.75rem;
+    line-height: initial;
+  }
+
+  .h5 {
+    font-size: 18px;
   }
 
   main > div > img {
     width: 70vw;
     margin-bottom: 6rem;
+    margin-left: 3rem;
   }
 
   content > ul {
     flex-direction: column;
   }
-  
 
   .header {
     padding-bottom: 1rem;
     border-bottom: 3px solid #ffd153;
   }
 
-    section {
-      flex-wrap: wrap;
+  section {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    ul {
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
+  }
 
-    .platform {
-      width: 100vw;
-      margin-bottom: 1.5rem;
-      padding: 0rem 4.6rem;
+  .subTitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    a {
+      margin-left: 11rem;
     }
-  
+  }
 
-    .card-l {
-      width: 60vw;
-      padding: 2.5rem 3rem;
-      margin-bottom: 3rem;
-      margin-left: 8rem;
+  .rightSection {
+    width: 80vw;
+  }
+
+  .platform {
+    width: 100vw;
+    margin-bottom: 1.5rem;
+    padding: 0rem 4.6rem;
+  }
+
+  .card-l {
+    padding: 2.5rem 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .card-m {
+    width: 45vw;
+    margin-bottom: 1.5rem;
+    img {
+      margin-bottom: 1rem;
     }
-
-    .card-m {
-      width: 45vw;
-      margin-bottom: 1.5rem;
-      img {
-        margin-bottom: 1rem;
-      }
-      p {
-        padding: 0rem 1rem;
-      }
+    p {
+      padding: 0rem 1rem;
     }
+  }
 
-    .card-s {
-      width: 45vw;
-      padding: 3rem;
-    }
-
-
-    .bg-home-sm {
-      position: relative;
-      background-repeat: no-repeat;
-      background-image: url(../images/bg_home_sm.svg);
-      background-position: 50% 400px;
-      background-size: 334px;
+  .card-s {
+    width: 45vw;
+    padding: 3rem;
   }
 }
-
-
-    
-
-

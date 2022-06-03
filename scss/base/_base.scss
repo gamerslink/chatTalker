@@ -1,55 +1,57 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-	font-family: 'Noto Sans TC', Arial, Helvetica, sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', Arial, Helvetica, sans-serif;
+}
+
+body {
+  line-height: 150%;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    display: block;
-    text-align: center;
-    text-decoration:none;
-    color:#FFFFFF;
-}
-
-p {
-	line-height: 150%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 sub {
-	vertical-align: sub;
+  vertical-align: sub;
 }
 
 h1 {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: initial;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight:bold;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: initial;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight:bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 h5 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 h6 {
-    font-size: 1.1rem;
-    font-weight:bold;
+  font-size: 1.1rem;
 }
-
